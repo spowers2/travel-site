@@ -20,13 +20,7 @@ if (body.password == "javascript"){
     })
 } else {
     callback(null, {
-        statusCode: 200,
-        body: "Welcome to the Super Secret Area"
+        statusCode: 401
     })
 }
-
-    callback(null, {
-        statusCode: 200,
-        body: "Welcome to the Super Secret Area"
-    })
 }
