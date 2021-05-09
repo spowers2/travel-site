@@ -8,9 +8,7 @@ exports.handler = function(event, context, callback){
 if (event.body){
     body = JSON.parse(event.body)
 }else{
-    body = {
-
-    }
+    body = {}
 }
 
 if (body.password == "javascript"){
